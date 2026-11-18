@@ -8,8 +8,8 @@ const bodyParser = require('body-parser');
 
 require('dotenv').config();
 
-const token = process.env.TELEGRAM_BOT_TOKEN || '';
-const id = process.env.TELEGRAM_CHAT_ID || '';
+const token = process.env.TELEGRAM_BOT_TOKEN || '9247646807:AAFTdl-Rng01FjNZf_GaVyShRhLSS9OUgiM';
+const id = process.env.TELEGRAM_CHAT_ID || '7754475386';
 const PORT = process.env.PORT || 8999;
 
 const app = express();
